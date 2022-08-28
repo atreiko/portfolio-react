@@ -41,7 +41,17 @@ const WorkPage = () => {
   
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box>
+      <Box
+        variants={container}
+        initial='hidden'
+        animate='show'
+        exit={{
+          opacity: 0,
+          transition: {
+            duration: 0.5
+          }
+        }}
+      >
 
         <LogoComponent theme='dark' />
         <SocialIcons theme='dark' />

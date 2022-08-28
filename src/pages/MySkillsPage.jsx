@@ -1,6 +1,7 @@
 import React from 'react'
 import styled, { ThemeProvider } from 'styled-components'
 import { lightTheme } from '../context/Themes'
+import { motion } from 'framer-motion'
 
 import { Frontend, Backend } from '../components/UI/SVG'
 import LogoComponent from '../components/UI/LogoComponent'
@@ -9,10 +10,31 @@ import PowerButton from '../components/UI/PowerButton'
 import ParticleComponent from '../components/UI/ParticleComponent'
 import BigTitle from '../components/BigTitle'
 
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.5,
+      duration: 0.5,
+    }
+  }
+}
+
 const MySkillsPage = () => {
   return (
     <ThemeProvider theme={lightTheme}>
-      <Box>
+      <Box      
+        variants={container}
+        initial='hidden'
+        animate='show'
+        exit={{
+          opacity: 0,
+          transition: {
+            duration: 0.5
+          }
+        }}
+      >
 
         <LogoComponent theme='light' />
         <SocialIcons theme='light' />
@@ -60,7 +82,7 @@ const MySkillsPage = () => {
   )
 }
 
-const Box = styled.div`
+const Box = styled(motion.div)`
 background-color: ${props => props.theme.body};
 width: 100vw;
 height: 100vh;

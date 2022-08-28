@@ -1,6 +1,7 @@
 import React from 'react'
 import styled, { keyframes, ThemeProvider } from 'styled-components'
 import { darkTheme } from '../context/Themes'
+import { motion } from 'framer-motion'
 
 import LogoComponent from '../components/UI/LogoComponent'
 import SocialIcons from '../components/UI/SocialIcons'
@@ -10,10 +11,31 @@ import BigTitle from '../components/BigTitle'
 
 import astronaut from '../assets/Images/spaceman.png'
 
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.5,
+      duration: 0.5,
+    }
+  }
+}
+
 const AboutPage = () => {
   return (
     <ThemeProvider theme={darkTheme}>
-      <Box>
+      <Box
+        variants={container}
+        initial='hidden'
+        animate='show'
+        exit={{
+          opacity: 0,
+          transition: {
+            duration: 0.5
+          }
+        }}
+      >
 
         <LogoComponent theme='dark' />
         <SocialIcons theme='dark' />
@@ -39,7 +61,7 @@ const AboutPage = () => {
   )
 }
 
-const Box = styled.div`
+const Box = styled(motion.div)`
 background-color: ${props => props.theme.body};
 width: 100vw;
 height: 100vh;
