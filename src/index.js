@@ -5,10 +5,10 @@ import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 import 'normalize.css';
 import './index.css';
-
+// hashType='hashbang'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter hashType='hashbang'>
+  <HashRouter>
     <App />
   </HashRouter>
 );
