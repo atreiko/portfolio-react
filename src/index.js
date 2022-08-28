@@ -8,7 +8,7 @@ import './index.css';
 // hashType='hashbang'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <HashRouter>
+  <BrowserRouter>
     <App />
-  </HashRouter>
+  </BrowserRouter>
 );
