@@ -1,5 +1,14 @@
 export const Work = [
   {
+    id:'unknown-blog',
+    name:"Unknown Blog Landing Page",
+    description:"Vanilla JS Landing Page for newbies",
+    tags:["html","css","javascript"],
+    
+    demo:"https://unknown-blog-eoyd4ctsz-atreiko.vercel.app/",
+    github:"https://github.com/atreiko/unknown-blog"
+  },
+  {
     id:1,
     name:"Agency Landing Page",
     description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
