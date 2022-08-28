@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage": "https://atreiko.github.io/portfolio-react/index.html",
+  "homepage": "https://atreiko.github.io/portfolio-react/public/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
