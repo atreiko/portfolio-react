@@ -9,6 +9,15 @@ export const Work = [
     github:"https://github.com/atreiko/unknown-blog"
   },
   {
+    id:'sphere',
+    name:"Sphere Landing Page",
+    description:"Responsive Landing Page with Slider Swiper, ScrollReveal animation, custom scrollbar on Vanilla JS",
+    tags:["responsive","swiper","scrollReveal","customScroll"],
+    
+    demo:"https://sphere-three.vercel.app/#home",
+    github:"https://github.com/atreiko/sphere"
+  },
+  {
     id:1,
     name:"Agency Landing Page",
     description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
