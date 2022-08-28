@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.1b3f5c21.css",
+    "main.js": "/portfolio-react/static/js/main.79f3c9b4.js",
+    "static/media/nthng_-_soms_(z2.fm).mp3": "/portfolio-react/static/media/nthng_-_soms_(z2.fm).6e5fe8a3b214f2895d5b.mp3",
+    "static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg": "/portfolio-react/static/media/patrick-tomasso-Oaqk7qqNh_c-unsplash.8ca90014fb6ce5980110.jpg",
+    "static/media/spaceman.png": "/portfolio-react/static/media/spaceman.5ec7fcfa9a803ead726c.png",
+    "static/media/profile-img.png": "/portfolio-react/static/media/profile-img.5179e446ac1a570ce69b.png",
+    "index.html": "/portfolio-react/index.html",
+    "main.1b3f5c21.css.map": "/portfolio-react/static/css/main.1b3f5c21.css.map",
+    "main.79f3c9b4.js.map": "/portfolio-react/static/js/main.79f3c9b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b3f5c21.css",
+    "static/js/main.79f3c9b4.js"
+  ]
+}
