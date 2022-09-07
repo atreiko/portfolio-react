@@ -63,14 +63,5 @@ export const Blogs = [
       date:"16 May, 2021",
       imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--ZY1EK-Eo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bcz1u90oq3prr5fga3fs.png",
       link:"https://dev.to/codebucks/what-is-redux-simply-explained-2ch7"
-  },
-  {
-      id:8,
-      name:"How to create Sidebar navigation menu in ReactJS with react router and framer-motion",
-      tags:["react","framer-motion","styled-components"],
-      date:"26 May, 2021",
-      imgSrc:"https://res.cloudinary.com/practicaldev/image/fetch/s--rv4I8UwE--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0a9h50milhlf1us6mn4a.png",
-      link:"https://dev.to/codebucks/build-sidebar-navigation-menu-in-reactjs-with-react-router-and-framer-motion-for-cool-page-transition-effects-4bc3"
-  },
-  
+  }, 
 ] 

@@ -17,6 +17,15 @@ export const Work = [
     demo:"https://sphere-three.vercel.app/#home",
     github:"https://github.com/atreiko/sphere"
   },
+  {
+    id:'movies',
+    name:"Movies React App",
+    description:"Responsive React App with Api, Slider Swiper, routing, Sass and PropTypes",
+    tags:["responsive","swiper","api","axios","react-router-domV6","prop-types"],
+    
+    demo:"https://movies-ciqp0nw4o-atreiko.vercel.app/",
+    github:"https://github.com/atreiko/movies"
+  },
   // {
   //   id:1,
   //   name:"Agency Landing Page",
