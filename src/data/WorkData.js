@@ -19,7 +19,7 @@ export const Work = [
   },
   {
     id:'movies',
-    name:"Movies React App",
+    name:"Movies React App with API",
     description:"Responsive React App with Api, Slider Swiper, routing, Sass and PropTypes",
     tags:["responsive","swiper","api","axios","react-router-domV6","prop-types"],
     
