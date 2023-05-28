@@ -1,6 +1,6 @@
 # Portfolio | React  
 
-View project: https://movies-react-rosy.vercel.app/  
+View project: https://portfolio-react-atreiko.vercel.app/  
 
 - React  
 - Styled Components  

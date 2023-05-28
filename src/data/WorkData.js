@@ -32,7 +32,7 @@ export const Work = [
     description:"Portfolio",
     tags:["react","styledComponents","framerMotion", "particlesAnimation"],
     
-    demo:"https://abz-task-eight.vercel.app/",
+    demo:"https://portfolio-react-atreiko.vercel.app/",
     github:"https://github.com/atreiko/abz-task"
   },
 ] 
